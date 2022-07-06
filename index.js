@@ -27,20 +27,20 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(` ▄▄▄       ██▀███   ███▄    █  ▄▄▄      ▒███████▒▒██   ██▒
-▒████▄    ▓██ ▒ ██▒ ██ ▀█   █ ▒████▄    ▒ ▒ ▒ ▄▀░▒▒ █ █ ▒░
-▒██  ▀█▄  ▓██ ░▄█ ▒▓██  ▀█ ██▒▒██  ▀█▄  ░ ▒ ▄▀▒░ ░░  █   ░
-░██▄▄▄▄██ ▒██▀▀█▄  ▓██▒  ▐▌██▒░██▄▄▄▄██   ▄▀▒   ░ ░ █ █ ▒ 
- ▓█   ▓██▒░██▓ ▒██▒▒██░   ▓██░ ▓█   ▓██▒▒███████▒▒██▒ ▒██▒
- ▒▒   ▓▒█░░ ▒▓ ░▒▓░░ ▒░   ▒ ▒  ▒▒   ▓▒█░░▒▒ ▓░▒░▒▒▒ ░ ░▓ ░
-  ▒   ▒▒ ░  ░▒ ░ ▒░░ ░░   ░ ▒░  ▒   ▒▒ ░░░▒ ▒ ░ ▒░░   ░▒ ░
-  ░   ▒     ░░   ░    ░   ░ ░   ░   ▒   ░ ░ ░ ░ ░ ░    ░  
-      ░  ░   ░              ░       ░  ░  ░ ░     ░    ░  
+  console.log(` ▄▄▄       ██▀███
+▒██   ▒ ▄▀░▒▒░
+▒██  ░░  █   ░
+ ▄▀▒   ░░█ ▒ 
+ ▓█   ▓██▒██▒ ▒██▒
+ ▒▒   ▓▒█▒░ ░▓ ░
+  ▒   ▒▒ ░ ░ ░ ░░  
+  ░   ▒     ░░   ░    ░   ░   ░  
+      ░  ░   ░              ░
                                         ░                 
-By : ${chalk.bold('Natchx#3695')}
+By : ${chalk.bold('DEMONZxx##')}
 `);
 
-  const auth = rs.question('Masukin kode auth lu : ');
+  const auth = rs.question('Code Auth : ');
   console.log('');
 
   while (true) {
@@ -59,11 +59,11 @@ By : ${chalk.bold('Natchx#3695')}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`User By Natch: ${username}`)} | ${chalk.blue(`Trophy By Natch : ${trophy}`)} | ${chalk.green(`Crown By Natch: ${crown}`)}`));
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`User By DEMON: ${username}`)} | ${chalk.blue(`Trophy By DEMON : ${trophy}`)} | ${chalk.green(`Crown By DEMON: ${crown}`)}`));
       await sleep(6000);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Mampus ke banned akunnya aowokaw:v`));
+      console.log(chalk.bgRed(`Mampus ke banned akunnya WKWKWKWK:v`));
      break;
     }
   }
