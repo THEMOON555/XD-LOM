@@ -1,0 +1,2 @@
+# XD-LOM.py
+Install!!
