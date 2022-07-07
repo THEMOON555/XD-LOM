@@ -1,3 +1,4 @@
+Import os, sys
 const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
@@ -26,18 +27,18 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 });
 
 (async () => {
-
+ os.system('clear')
   console.log(`                              
-                                 ██   ██
-      █        █               █    █    █
-      ░░     ░░               █ █ █  █ █ █
+                                  ██   ██
+      █        █                █    █    █
+      ░░     ░░                █ █ █  █ █ █
     ▓██ ██▒██ ██▓             █        █
    ░░▒▒   █   █▒░░░             █     █
   ▒░  ░ ░ ░ ░ ░   ░░              ███
 █ █   █        █   █ █            
       ░   ░░   ░   
      █ █      █ █                      
-By : ${chalk.bold('DEMONZxx##')}
+By : ${chalk.bold('DEMONZ')}
 `);
 
   const auth = rs.question('Code Auth : ');
