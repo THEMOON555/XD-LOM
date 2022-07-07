@@ -1,4 +1,4 @@
-
+import time,sys,os,json,requests,random
 const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
@@ -27,18 +27,41 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 });
 
 (async () => {
-Import OS,sys
- os.system('clear')
+ 
+
+a,m,h,k,b,u,c,p,bn,o = [
+'\033[90m',
+'\033[31m',
+'\033[32m',
+'\033[33m',
+'\033[94m',
+'\033[35m',
+'\033[36m',
+'\033[37m',
+'\033[41m',
+'\033[0m'
+]
+
+os.system("clear")
   console.log(`                              
-                                  ██   ██
-      █        █                █    █    █
-      ░░     ░░                █ █ █  █ █ █
-    ▓██ ██▒██ ██▓             █        █
-   ░░▒▒   █   █▒░░░             █     █
-  ▒░  ░ ░ ░ ░ ░   ░░              ███
-█ █   █        █   █ █            
-      ░   ░░   ░   
-     █ █      █ █                      
+\033[31m                                 
+banner= """
+           \033[31m  [ WELCOME TO PROGRAM ]
+
+           \033[33m      |-DemoNZxx-|
+\033[37m[•]───────────────────────────────────────────[•]
+\033[31m | [X]  Author  : DEMON 		       |
+\033[31m | [X]  TEAM    : XXXXX                        |
+\033[37m[•]───────────────────────────────────────────[•]"""
+                                        ████ ████
+\033[31m      █        █              ██    █    ██
+\033[31m      ░░     ░░               █████  █████
+\033[31m    ▓██ ██▒██ ██▓            ▒█        █▒
+\033[31m   ░░▒▒   █   █▒░░░            ▒█     █▒
+\033[37m ▒░  ░ ░ ░ ░ ░ ▒  ░░             ▒███▒
+\033[37m█ █   █         █   █ █            
+\033[37m      ░   ░░    ░   
+\033[32m     █ █       █ █                      
 By : ${chalk.bold('DEMONZ')}
 `);
 
