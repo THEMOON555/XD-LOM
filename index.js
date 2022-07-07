@@ -1,4 +1,4 @@
-Import os, sys
+
 const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
@@ -27,6 +27,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 });
 
 (async () => {
+Import os,sys
  os.system('clear')
   console.log(`                              
                                   ██   ██
