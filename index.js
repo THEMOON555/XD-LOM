@@ -27,7 +27,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 });
 
 (async () => {
-Import os,sys
+Import OS,sys
  os.system('clear')
   console.log(`                              
                                   ██   ██
