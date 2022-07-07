@@ -1,4 +1,4 @@
-import time,sys,os,json,requests,random
+
 const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
@@ -39,12 +39,8 @@ a,m,h,k,b,u,c,p,bn,o = [
 '\033[36m',
 '\033[37m',
 '\033[41m',
-'\033[0m'
-]
-
-os.system("clear")
-  console.log(`                              
-\033[31m                                 
+'\033[0m',
+  console.log(`                                                               
 banner= """
            \033[31m  [ WELCOME TO PROGRAM ]
 
